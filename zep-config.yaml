@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dotenv
+  namespace: zep  # Substitua pelo namespace correto
+  # Por exemplo, se o seu arquivo .env tiver variáveis ​​como PORT=3000, você pode adicionar aqui:
+  PORT: "8000"
